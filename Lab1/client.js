@@ -11,7 +11,9 @@ client.connect(6000, '127.0.0.1', () => {
 
 	rl.question('What do you want to send to the server? ', (message) => {
 		rl.question('Would you like to setInterval? ', (answerInterval) => {
-			if (answerInterval === "yes") {
+			var patt = /^(?:y(?:es)?|1)$/i;
+			var result = patt.test(answerInterval);
+			if (result) {
 				rl.question('Which interval? ', (intervalNumber) => {
 					rl.close();
 					interval = intervalNumber;
@@ -20,9 +22,7 @@ client.connect(6000, '127.0.0.1', () => {
 					}, parseInt(intervalNumber));
 
 				});
-
 			} else {
-				console.log('Connected');
 				client.write(message);
 			}
 

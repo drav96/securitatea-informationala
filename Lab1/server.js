@@ -25,7 +25,7 @@ function onClientConnected(socket) {
 		console.log(`${clientName} said: ${m}`);
 
 		// notifing the client
-		socket.write(`We got your message (${m}). Thanks!\n`);
+		socket.write(`We got your message: (${m})\n`);
 	});
 
 	// Triggered when this client disconnects
