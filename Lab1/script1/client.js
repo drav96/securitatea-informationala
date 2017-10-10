@@ -39,7 +39,6 @@ client.connect(6000, '127.0.0.1', () => {
 
 client.on('data', (data) => {
 	console.log('Received: ' + data);
-	// client.destroy(); // kill client after server's response
 });
 
 client.on('close', () => {
