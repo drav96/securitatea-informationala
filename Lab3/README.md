@@ -2,7 +2,7 @@ Breaking the shift cipher
 --
 See here tasks for this [Laboratory work](https://github.com/mcosletjr/InfoSecLabs/tree/master/lab3%20%22%20Laboratory%20work)
 
-###Deadline
+### Deadline
 
 * AB ZNRL MAX WXTWEBGX YHK MABL ETUHKTMHKR BL MAX MPXGMBXMA HY WXVXFUXK B PHNEW EBDX MH PBLA RHN ZHHW ENVD PBMA BM TGW ATOX T GBVX EBYX
   
@@ -10,7 +10,7 @@ See here tasks for this [Laboratory work](https://github.com/mcosletjr/InfoSecLa
   
      >HI GUYS THE DEADLINE FOR THIS LABORATORY IS THE TWENTIETH OF DECEMBER I WOULD LIKE TO WISH YOU GOOD LUCK WITH IT AND HAVE A NICE LIFE
 
-###Decrypt these messages:
+### Decrypt these messages:
 
 * WKHSWEC: WI XKWO SC WKHSWEC NOMSWEC WOBSNSEC, MYWWKXNOB YP DRO KBWSOC YP DRO XYBDR, QOXOBKV YP DRO POVSH VOQSYXC, VYIKV COBFKXD DY DRO DBEO OWZOBYB, WKBMEC KEBOVSEC. PKDROB DY K WEBNOBON CYX, RECLKXN DY K WEBNOBON GSPO. KXN S GSVV RKFO WI FOXQOKXMO, SX DRSC VSPO YB DRO XOHD.
  
