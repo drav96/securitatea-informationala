@@ -1,19 +1,28 @@
+/**
+ *
+ * @param alphabet
+ * @param frequentLetters
+ * @param countedLetters
+ * @returns {Array.<*>}
+ */
 let frequencyAnalyse = (alphabet, frequentLetters, countedLetters) => {
 	let i;
-
 	let secret;
 	let secretKeys = [];
+	let orderInAlphabet;
 	for (i = 0; i < countedLetters.length; i++) {
 		for (let key in frequentLetters) {
-			let orderInAlphabet = alphabet.indexOf(countedLetters[i][0]) + 1;
-			if (orderInAlphabet >= frequentLetters[key]) {
-				secret = orderInAlphabet - frequentLetters[key];
-				secretKeys.push(secret)
-			} else {
-				secret = frequentLetters[key]-orderInAlphabet ;
-				secretKeys.push(secret)
-			}
+			orderInAlphabet = alphabet.indexOf(countedLetters[i][0]) + 1;
 
+			if (orderInAlphabet > frequentLetters[key]) {
+				secret = 26-orderInAlphabet + frequentLetters[key];
+				secretKeys.push(secret)
+
+			} else {
+				secret = 26-frequentLetters[key] + orderInAlphabet;
+				secretKeys.push(secret)
+
+			}
 		}
 	}
 	return secretKeys.filter(function (elem, index, self) {

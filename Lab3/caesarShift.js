@@ -1,3 +1,9 @@
+/**
+ *
+ * @param str
+ * @param amount
+ * @returns {string}
+ */
 let caesarShift = function (str, amount) {
 
 	// Wrap the amount

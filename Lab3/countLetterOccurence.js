@@ -1,3 +1,8 @@
+/**
+ *
+ * @param text
+ * @returns {Array}
+ */
 let countLetterOccurence = (text) => {
 	let textOnlyLetters = text.replace(/[^a-z]/gi, '').toLocaleLowerCase();
 
