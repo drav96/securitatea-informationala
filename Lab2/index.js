@@ -3,8 +3,8 @@ var net = require('net');
 var maxConnections = 1000000;
 var connections = [];
 
-var host = "127.0.0.1";
-var port = 3000;
+var host = "88.99.37.146";
+var port = 80;
 
 function Connection(h, p) {
 	this.state = 'active';
@@ -60,4 +60,4 @@ setInterval(() => {
 		console.log("Active connections: " + connections.length +
 			" / " + maxConnections);
 	}
-}, 1);
+}, 2);
