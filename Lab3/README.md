@@ -1,6 +1,6 @@
 Breaking the shift cipher
 --
-See here tasks for this [Laboratory work](https://github.com/mcosletjr/InfoSecLabs/tree/master/lab3%20%22%20Laboratory%20work)
+See here tasks for this [Laboratory work](https://github.com/mcosletjr/InfoSecLabs/tree/master/lab3)
 
 ### Deadline
 
