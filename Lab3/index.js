@@ -3,7 +3,7 @@ let caesarShift = require('./caesarShift');
 let countLetterOccurence = require('./countLetterOccurence');
 let frequencyAnalyse = require('./frequencyAnalyse');
 let language = require('./language');
-let frequentEnglishLetters = require('./frequentEnglishLetters.json');
+let frequentLettersINT = require('./frequentLetters.json');
 
 const rl = readline.createInterface({
 	input: process.stdin,
@@ -17,15 +17,15 @@ let frequentLetters;
 switch (decipherLang) {
 	case "ENG":
 		alphabet = language.englishAlphabet;
-		frequentLetters = frequentEnglishLetters;
+		frequentLetters = frequentLettersINT.english;
 		break;
 	case "RO":
 		alphabet = language.romanianAlphabet;
-		frequentLetters = frequentEnglishLetters;
+		frequentLetters = frequentLettersINT.romanian;
 		break;
 	default:
 		alphabet = language.englishAlphabet;
-		frequentLetters = frequentEnglishLetters;
+		frequentLetters = frequentLettersINT.english;
 
 }
 rl.question('Text to decipher: ', (text) => {

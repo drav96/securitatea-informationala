@@ -15,11 +15,11 @@ let frequencyAnalyse = (alphabet, frequentLetters, countedLetters) => {
 			orderInAlphabet = alphabet.indexOf(countedLetters[i][0]) + 1;
 
 			if (orderInAlphabet > frequentLetters[key]) {
-				secret = 26-orderInAlphabet + frequentLetters[key];
+				secret = alphabet.length - orderInAlphabet + frequentLetters[key];
 				secretKeys.push(secret)
 
 			} else {
-				secret = 26-frequentLetters[key] + orderInAlphabet;
+				secret = alphabet.length - frequentLetters[key] + orderInAlphabet;
 				secretKeys.push(secret)
 
 			}
